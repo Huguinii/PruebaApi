@@ -3,6 +3,7 @@ using ApiPelicula.Models.DTOs.UserDto;
 using AutoMapper;
 using RestAPI.Models.DTOs;
 using RestAPI.Models.DTOs.LibroDTO;
+using RestAPI.Models.DTOs.PeliculaDTO;
 using RestAPI.Models.Entity;
 
 namespace ApiPelicula.AutoMapper
@@ -20,6 +21,8 @@ namespace ApiPelicula.AutoMapper
             CreateMap<SovietTankEntity, SovietTankDTO>().ReverseMap();
             CreateMap<CreateSovietTankDTO, SovietTankEntity>().ReverseMap();
             CreateMap<AppUser, UserDto>().ReverseMap();
+            CreateMap<PeliculaEntity, PeliculaDTO>().ReverseMap();
+            CreateMap<PeliculaEntity, CreatePeliculaDTO>().ReverseMap();
         }
     }
 }

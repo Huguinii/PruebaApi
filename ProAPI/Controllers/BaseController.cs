@@ -1,12 +1,13 @@
 ﻿namespace RestAPI.Controllers
 {
     using AutoMapper;
+    using global::RestAPI.Repository;
     using Microsoft.AspNetCore.Authorization;
     using Microsoft.AspNetCore.Mvc;
     using System;
     using System.Collections.Generic;
     using System.Threading.Tasks;
-    using global::RestAPI.Repository;
+
 
     namespace RestAPI.Controllers
     {
